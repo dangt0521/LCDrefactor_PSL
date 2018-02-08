@@ -141,7 +141,6 @@ public class NumerosLCD {
         String[][] resultado = new String[digitos.length()][];
         for (int i = 0; i < digitos.length(); i++) {
             resultado[i] = getSegmentosPorDigito(Utilidades.getDigito(digitos, i), size);
-            //resultado[i]= segmentsFor(numero, size);
         }
         return resultado;
     }
